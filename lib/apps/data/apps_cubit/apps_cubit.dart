@@ -61,6 +61,7 @@ class AppsCubit extends Cubit<AppsState> {
       print(images.images);
       emit(FileImagesLoaded(images.images));
     } catch (e) {
+      print(e);
       emit(FileImagesError(e.toString()));
     }
   }

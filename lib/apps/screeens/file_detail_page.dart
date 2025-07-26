@@ -24,7 +24,7 @@ class FileDetailPage extends StatelessWidget {
       body: BlocProvider(
         create: (_) => AppsCubit()
           ..loadFileImages(
-              "https://api.github.com/repos/ahmedmsaaid/assets/contents$file"),
+              "https://api.github.com/repos/ahmedmsaaid/assets/contents/$file"),
         child: BlocBuilder<AppsCubit, AppsState>(
           builder: (context, state) {
             if (state is FileImagesLoading) {
