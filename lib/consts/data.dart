@@ -378,7 +378,7 @@ const String facebook =
 const String linkedIn = "https://www.linkedin.com/in/ahmed-saaid-1656021b0/";
 const String github = "https://github.com/ahmedmsaaid";
 const String twitter = "https://x.com/AhMed51692444";
-const String whatsapp = "https://wa.link/2xivst";
+const String whatsapp = "https://wa.link/54hxml";
 const String resumeLink =
     "https://drive.google.com/file/d/1LO3Km6fFkJVW92MNXRLSYl--E9YlTHJd/view";
 const String email = "ahmedsaaid908@gmail.com";
